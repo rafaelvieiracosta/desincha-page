@@ -1,0 +1,23 @@
+.container-banner {
+  position: relative;
+  top: -4px;
+  background: linear-gradient(90deg, #8cc05e, #6bbfc1);
+}
+
+.vantagens{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.vantagens > div{
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
