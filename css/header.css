@@ -1,0 +1,119 @@
+.container {
+  background: linear-gradient(90deg, #8cc05e, #6bbfc1);
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 55px;
+  background: #002631;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.promotion svg {
+  width: 36px;
+}
+
+.header-main {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.logos {
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+.logos svg + svg {
+  padding-left: 10px;
+  max-width: 110px;
+}
+
+.logos::before {
+  content: "";
+  height: 37px;
+  width: 2px;
+  left: 152px;
+  top: 25px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.logos svg {
+  width: 152px;
+  max-height: 90px;
+}
+
+.busca {
+  max-width: 505px;
+  width: 100%;
+  display: flex;
+}
+
+.busca-input {
+  width: 403px;
+  font-size: 14px;
+  padding: 11px 20px;
+  outline: none;
+  border: none;
+}
+
+.busca > button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.nav-one ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.container-nav {
+  background-color: #147444;
+}
+
+.header-nav {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.header-nav li {
+  padding: 13px 0;
+}
+
+.header-nav li a {
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 0 25px;
+}
+.header-nav li a:hover {
+  text-decoration: underline;
+}
+.header-nav ul li:last-child a{
+  color: yellow;
+}
+
+.header-nav li + li a {
+  border-left: 2px solid #fff;
+}
