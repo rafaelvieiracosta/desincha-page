@@ -21,3 +21,13 @@
   gap: 20px;
   color: #fff;
 }
+
+@media(max-width:900px){
+  .vantagens{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .vantagens > div{
+    padding: 20px
+  }
+}

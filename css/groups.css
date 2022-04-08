@@ -13,3 +13,9 @@
   padding: 3px;
 }
 
+@media(max-width:900px){
+  .groups{
+    flex-wrap: wrap;
+  }
+}
+
