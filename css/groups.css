@@ -1,0 +1,15 @@
+.groups{
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.groups > img{
+  max-width: 103px;
+  width: 100%;
+  border: 4px solid #59AA7B;
+  border-radius: 50%;
+  padding: 3px;
+}
+
